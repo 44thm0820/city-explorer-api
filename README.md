@@ -9,6 +9,10 @@ This application is my own custom API server, which will provide data for the Ci
 
  -->
 
+## Links
+trello board: https://trello.com/b/SnbYYlrq/301d81-city-explorer
+
+
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 1. set up your server repository
@@ -30,15 +34,25 @@ Node, express, dotenv.
 For group exercise of drawing out the web request-response cycle for the current lab tasks, Shane Roach, Hambalieu Jallow, and I were assigned to work together.
 See ('./lab 07.png') or (<https://shaneroach871214.invisionapp.com/freehand/lab-07-F4xZJTGb8>) for our collaboration of the web request-response cycle.
 
-Time Estimates
+## Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-Name of feature: Set up your server repo - feature 1
+### Name of feature: Set up your server repo - feature 1
 
 Estimate of time needed to complete: 2 hours
 
 Start time: 300pm
 
 Finish time: 617pm
+
+Actual time needed to complete: 3.5 hours
+
+### Name of feature: Weather - feature 2
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 945pm
+
+Finish time: 
 
 Actual time needed to complete: 3.5 hours

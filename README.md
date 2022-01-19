@@ -11,7 +11,7 @@ This application is my own custom API server, which will provide data for the Ci
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
-1. set up your sever repository
+1. set up your server repository
 2. Weather (placeholder): As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
 3. Errors (revisited): As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
 
@@ -27,6 +27,9 @@ Node, express, dotenv.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+For group exercise of drawing out the web request-response cycle for the current lab tasks, Shane Roach, Hambalieu Jallow, and I were assigned to work together.
+See ('./lab 07.png') or (<https://shaneroach871214.invisionapp.com/freehand/lab-07-F4xZJTGb8>) for our collaboration of the web request-response cycle.
+
 Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 

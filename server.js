@@ -65,7 +65,7 @@ app.get(’/throw-an-error’, (request, response)⇒ {
 
 
 app.get('/weather', (request,response) => {
-  let searchQuery = request.query.searchQuery;
+  let searchQuery = request.query.searchQuery; 
   let lat = request.query.lat;
   let lon = request.query.lon;
 
@@ -77,6 +77,10 @@ app.get('/weather', (request,response) => {
     response.status(404).send('these are not the droids you are looking for...');
   }
 });
+
+//todo lab8 tasks
+// Access the query parameters from the web client request object, to identify the exact location for which the web client is requesting weather info.
+// Update the callback for your `/weather` route so that, instead of returning data from the `weather.json` file, it makes a Axios request to the weather API with the latitude and longitude from the web client.
 
 // catch all route MUST BE the last route in the file
 // we can control the messaging for any mistakenly hit route that doesn't exist

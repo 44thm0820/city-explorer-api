@@ -11,7 +11,8 @@ This application is my own custom API server, which will provide data for the Ci
 
 ## Links
 trello board: https://trello.com/b/SnbYYlrq/301d81-city-explorer
-
+netlify front-end: https://city-explorer-by-rey-m.netlify.app/
+heroku back-end: https://city-explorer-api-reym.herokuapp.com/
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -28,16 +29,20 @@ Node, express, dotenv.
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 01-18-2022 6:17pm - Server repository is now set up.
+01-19-2022 11:35pm - barebones for lab8 setup including heroku back end setup
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 For group exercise of drawing out the web request-response cycle for the current lab tasks, Shane Roach, Hambalieu Jallow, and I were assigned to work together.
 See ('./lab 07.png') or (<https://shaneroach871214.invisionapp.com/freehand/lab-07-F4xZJTGb8>) for our collaboration of the web request-response cycle.
 
+For group exercise of drawing out the web request-response cycle for lab 8, Shane Roach and I were assigned.
+See './lab 08-shane-rey.png'
+
 ## Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
 
-### Name of feature: Set up your server repo - feature 1
+### Name of feature: Set up your server repo - lab7-feature 1
 
 Estimate of time needed to complete: 2 hours
 
@@ -47,12 +52,24 @@ Finish time: 617pm
 
 Actual time needed to complete: 3.5 hours
 
-### Name of feature: Weather - feature 2
+
+### Name of feature: Weather - lab7-feature 2
 
 Estimate of time needed to complete: 3 hours
 
 Start time: 945pm
 
-Finish time: tbd
+Finish time: 0045pm
 
-Actual time needed to complete: tbd
+Actual time needed to complete: 3 hours and counting
+
+
+### Name of feature: Weather - lab8-feature 1 and 2 and 3
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 1045pm
+
+Finish time: 0045pm
+
+Actual time needed to complete: 2 hours and counting

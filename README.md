@@ -49,10 +49,10 @@ Actual time needed to complete: 3.5 hours
 
 ### Name of feature: Weather - feature 2
 
-Estimate of time needed to complete: 1 hour
+Estimate of time needed to complete: 3 hours
 
 Start time: 945pm
 
-Finish time: 
+Finish time: tbd
 
-Actual time needed to complete: 3.5 hours
+Actual time needed to complete: tbd

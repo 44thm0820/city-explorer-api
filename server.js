@@ -6,7 +6,8 @@ const express = require('express');
 
 // how it works - see docs
 const app = express();
-const cors = require('cors')
+const cors = require('cors');
+
 app.use(cors());
 require('dotenv').config();
 
@@ -56,29 +57,31 @@ app.get(’/throw-an-error’, (request, response)⇒ {
 // ______
 
 // hit this route: http://localhost:3001/weather?searchQuery=Seattle
+// hit this route: http://localhost:3001/weather?searchQuery=Paris
+// hit this route: http://localhost:3001/weather?searchQuery=Amman
 // hit this route: http://localhost:3001/weather?lat=47.60621&&lon=-122.33207
+// hit this route: http://localhost:3001/weather?lat=47.60621&&lon=-122.33207&&searchQuery=Seattle
+// hit this route: http://localhost:3001/weather?searchQuery=Endor
 
-// "lon": "-122.33207",
-// "timezone": "America/Los_Angeles",
-// "lat": "47.60621",
 
 app.get('/weather', (request,response) => {
   let searchQuery = request.query.searchQuery;
   let lat = request.query.lat;
   let lon = request.query.lon;
+
+  let foundData = weatherData.find(cityData => cityData.lat === lat && cityData.lon === lon) || weatherData.find(cityData => cityData.city_name === searchQuery);
   
-  if (searchQuery) {
-    response.send(weatherData.filter(city => city.city_name === searchQuery)[0].data.map(dataDay => new Forecast(dataDay)));  //chained!!! 
-  } else if (lat && lon) { 
-    response.send(weatherData.filter(city => city.lat === lat && city.lon === lon)[0].data.map(dataDay => new Forecast(dataDay)));
-    //chained!!! 
+  if (foundData) { 
+    response.send(foundData.data.map(dataDay => new Forecast(dataDay)));
+  } else {
+    response.status(404).send('these are not the droids you are looking for...');
   }
-})
+});
 
 // catch all route MUST BE the last route in the file
 // we can control the messaging for any mistakenly hit route that doesn't exist
 app.get('*', (request, response) => {
-  response.status(404).send('these are not the droids you are looking for...');
+  response.status(404).send('Error 404: these are not the droids you are looking for...');
 });
 
 //we can declare this class below it being called due to automatic hoisting in JavaScript

@@ -1,4 +1,4 @@
-# city-explorer-api-lab09-placeholder
+# city-explorer-api-lab10-placeholder
 
 **Author**: Rey Mercado
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
@@ -30,6 +30,8 @@ Node, express, dotenv.
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 01-18-2022 6:17pm - Server repository is now set up.
 01-19-2022 11:35pm - barebones for lab8 setup including heroku back end setup
+01-21-2022 1:58pm - code review for each other's partner. today, it is Hambalieu Jallow.  His repos were https://github.com/Hambalieu/city-explorer-api and https://github.com/Hambalieu/city-explorer.  Our WRRC whiteboard is './lab10wrrcreyjallow.png'
+
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->

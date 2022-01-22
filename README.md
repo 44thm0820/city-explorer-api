@@ -35,11 +35,17 @@ Node, express, dotenv.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-For group exercise of drawing out the web request-response cycle for the current lab tasks, Shane Roach, Hambalieu Jallow, and I were assigned to work together.
+For group exercise of drawing 1-19-2022 lab 7out the web request-response cycle for the current lab tasks, Shane Roach, Hambalieu Jallow, and I were assigned to work together.
 See ('./lab 07.png') or (<https://shaneroach871214.invisionapp.com/freehand/lab-07-F4xZJTGb8>) for our collaboration of the web request-response cycle.
 
 For group exercise of drawing out the web request-response cycle for lab 8, Shane Roach and I were assigned.
 See './lab 08-shane-rey.png'
+
+For group exercise of drawing out the web request-response cycle for lab 9, Chuck Altopiedi and I were assigned.
+See city-explorer repo 'lab09-wrrc4.jpg'
+
+For group exercise of drawing out the web request-response cycle for lab 10, Hambalieu Jallow and I were assigned.
+See './lab10wrrcreyjallow.png'
 
 ## Time Estimates
 For each of the lab features, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
